@@ -1,0 +1,445 @@
+:root{
+    --color-light:#FFFFFF;
+    --color-blue: #0045F8; 
+    --color-dark: #010101;
+    --color-back: #05003C;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: var(--color-dark);
+}
+
+h2{
+    color: var(--color-light);
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------------------------------- css header --------------------------------*/
+
+header{
+    margin: 0 20px;
+}
+
+.navbar-brand, .nav-link, button, h1, h3, .icone-menu{
+    color: var(--color-light);
+}
+
+.nav-link:hover{
+    color: var(--color-blue);
+}
+
+/*--------------------------------------- sessão apresentacao --------------------------------*/
+
+.apresentacao{
+    margin-top: 3%;
+    color: var(--color-light);
+    width: 100%;
+    max-height: 100vh;
+}
+
+.apresentacao_conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 2% 0;
+}
+
+.apresentacao span{
+    color: var(--color-blue);
+}
+
+.apresentacao_texto{
+    padding: 3% 5% 0 7%;
+}
+
+.apresentacao img{
+    width: 90%;
+    height: 90%;
+    border-radius: 30% 15% 30% 15%;
+    padding-right: 5%;
+}
+
+/* ---------------------------------- cards apresentação --------------------------------- */
+
+.cards{
+    background-color: var(--color-back);
+    padding: 5%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5%;
+    margin: 5% 0;
+    padding-top: 3%;
+}
+
+.card{
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-dark);
+    transition: .7s;
+    color: var(--color-light);
+}
+
+.card:hover {
+    scale: 1.11;
+}
+
+.card i{
+    font-size: 80px;
+    padding: 20px;
+    color: var(--color-light);
+}
+
+/* --------------------------------- sessão galeria ---------------------------------- */
+
+.galeria{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.galeria h2{
+    margin-bottom: 5%;
+}
+
+.carousel{
+    width: 60%;
+    height: 60%;
+}
+
+.carousel-control-prev{
+    padding-right: 10%;
+}
+
+.carousel-control-next{
+    padding-left: 10%;
+}
+
+.carousel, .div-card{
+    overflow: hidden;
+}
+
+.carousel-item img{
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* ----------------------------------- sessão arma ------------------------------------------ */
+
+.arma{
+    display: flex;
+}
+
+.arma-imagem{
+    width: 50%;
+    min-height: 100vh;
+    background-image: url(../images/IMG08.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.arma-texto{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-light);
+    padding: 16% 10% 16% 10%;
+    background-color: var(--color-back);
+}
+
+/* ----------------------------------- sessão hardware -------------------------------------- */
+
+.hardware{
+    margin: 7% 5% 0% 5%;
+    min-height: 100vh;
+}
+
+.hardware span{
+    margin-bottom: 10%;
+}
+
+.accordion{
+    --bs-accordion-color: var(--color-light);
+    --bs-accordion-bg: var(--color-back);
+    --bs-accordion-border-color: var(--color-light);
+    --bs-accordion-btn-color: var(--color-light);
+}
+
+.hdivisao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.hdivisao1{
+    height: 100%;
+    width: 100%;
+}
+
+.hdivisao2{
+    height: 100%;
+    width: 100%;
+}
+
+/* ----------------------------------- sessão vídeos ---------------------------------------- */
+
+.videos{
+    background-color: var(--color-back);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 5% 5% 5%;
+}
+
+.videos h2{
+    padding: 5% 0 2% 0;
+}
+
+.videos_ratio {
+    display: flex;
+    gap: 30px;
+}
+
+/* -------------------------------------- grupo ------------------------------------------ */
+
+.grupo{
+    margin-bottom: 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grupo h2{
+    padding: 0% 0 5% 0;
+}
+
+.cards_grupo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.cardg{
+    background-color: var(--color-back);
+    max-height: 18rem;
+    padding-top: 2%;
+}
+
+.cardg img{
+    width: 90%;
+    height: 70%;
+}
+
+/* -------------------------------------- robocup next --------------------------------------- */
+
+.robocup_next{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-back);
+    padding: 2% 0 2% 0;
+}
+
+.imagem_robocup_next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem_robocup_next img{
+    width: 40%;
+    height: 20%;
+    margin: 2% 0 2% 0;
+}
+
+.textos{
+    display: flex;
+}
+
+.robocup-texto, .next-texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-light);
+    padding: 2% 5% 0% 5%;
+}
+
+/* ---------------------------------- formulario de contato ------------------------------- */
+
+.contato{
+    color: var(--color-light);
+    margin: 8% 10% 5% 10%;
+}
+
+.contato h2{
+    margin-bottom: 5%;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+/* ---------------------------------------- footer ------------------------------------------ */
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: var(--color-light);
+    padding: 2% 0;
+    font-size: 3px;
+    background-color: var(--color-back);
+    text-align: center;
+}
+
+/* ----------------------------------------- responsivo ------------------------------------- */
+
+@media (width <= 1000px) {
+    .cards-grid{
+        grid-template-columns: repeat(2, auto);
+        height: 100%;
+    }
+
+    .cards h2{
+        padding-top: 10%;
+    }
+
+    .grupo{
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .cards_grupo{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+}
+
+@media (width <= 900px) {
+    .apresentacao_conteudo{
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .apresentacao_texto{
+        padding-top: 20px;
+    }
+
+    .apresentacao img{
+        padding-left: 5%;
+    }
+    
+    .cards-grid{
+        grid-template-columns: repeat(1,auto);
+        gap: 40px;
+    }
+
+    .card{
+        height: 100%;
+    }
+
+    .arma{
+        flex-direction: column;
+    }
+
+    .arma-imagem{
+        width: 100%;
+    }
+
+    .arma-texto{
+        width: 100%;
+    }
+
+    .hardware{
+        margin: 40px;
+        min-height: auto;
+    }
+
+    .videos{
+        padding: 30px 40px 30px 40px;
+    }
+
+    .galeria{
+        padding: 40px 0;
+    }
+
+    .carousel{
+        width: 80%;
+        height: 80%;
+    }
+
+    .videos_ratio {
+        flex-direction: column;
+    }
+
+    .grupo{
+        margin: 30px 0 30px 0;
+        height: auto;
+    }
+
+    .cards_grupo{
+        grid-template-columns: repeat(1,auto);
+        gap: 40px;
+    }
+
+    .grupo{
+        padding-bottom: 8%;
+    }
+
+    .textos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+    }
+
+    .robocup-texto, .next-texto{
+        width: 100%;
+    }
+
+    .imagem_robocup_next img{
+        width: 80%;
+        padding-top: 5%;
+    }
+
+    .contato{
+        margin: 10% 10% 10% 10%;
+    }
+}

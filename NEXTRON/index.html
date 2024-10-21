@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextronRobot</title>
+    
+    <!-- icon da página -->
+    <link rel="shortcut icon" href="./images/31237_transformer_robot_optimus_icon.png" type="image/x-icon">
+
+    <!-- chamando o Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- chamando o bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- chamando o font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- chamando o css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>Nextron</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><span class="icone-menu"><i class="fa-solid fa-bars"></i></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cards">Apresentação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#arma">Sistema da arma</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hardware">Hardware</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#videos">Vídeos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#grupo">Grupo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#robocup_next">Robocup e Next</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+    <section class="apresentacao" id="apresentacao">
+        <div class="apresentacao_conteudo">
+          <div class="apresentacao_texto">
+          <p><h1>Conheça o <span>Nextron</span></h1></p>
+          <h5><p>O Nextron é um robô do tipo Rover controlado por um aplicativo em smartphone Android projetado para participação da Robocup.</p></h5></div>
+          <div><img src="./images/imagem.jpeg" alt=""></div>
+        </div>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(5, 0, 60, 1)" offset="0%"></stop><stop stop-color="rgba(0, 18.232, 152.865, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,40L24,43.3C48,47,96,53,144,73.3C192,93,240,127,288,120C336,113,384,67,432,56.7C480,47,528,73,576,96.7C624,120,672,140,720,153.3C768,167,816,173,864,166.7C912,160,960,140,1008,133.3C1056,127,1104,133,1152,140C1200,147,1248,153,1296,136.7C1344,120,1392,80,1440,76.7C1488,73,1536,107,1584,120C1632,133,1680,127,1728,106.7C1776,87,1824,53,1872,56.7C1920,60,1968,100,2016,126.7C2064,153,2112,167,2160,170C2208,173,2256,167,2304,143.3C2352,120,2400,80,2448,70C2496,60,2544,80,2592,100C2640,120,2688,140,2736,123.3C2784,107,2832,53,2880,26.7C2928,0,2976,0,3024,13.3C3072,27,3120,53,3168,80C3216,107,3264,133,3312,120C3360,107,3408,53,3432,26.7L3456,0L3456,200L3432,200C3408,200,3360,200,3312,200C3264,200,3216,200,3168,200C3120,200,3072,200,3024,200C2976,200,2928,200,2880,200C2832,200,2784,200,2736,200C2688,200,2640,200,2592,200C2544,200,2496,200,2448,200C2400,200,2352,200,2304,200C2256,200,2208,200,2160,200C2112,200,2064,200,2016,200C1968,200,1920,200,1872,200C1824,200,1776,200,1728,200C1680,200,1632,200,1584,200C1536,200,1488,200,1440,200C1392,200,1344,200,1296,200C1248,200,1200,200,1152,200C1104,200,1056,200,1008,200C960,200,912,200,864,200C816,200,768,200,720,200C672,200,624,200,576,200C528,200,480,200,432,200C384,200,336,200,288,200C240,200,192,200,144,200C96,200,48,200,24,200L0,200Z"></path></svg>
+    </section>
+    </main>
+    
+    <section class="cards" id="cards">
+      <h2>Apresentação</h2>
+      <div class="cards-grid">
+      <div class="div-card">
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-robot"></i>
+              <div class="card-body">
+                <h5 class="card-title">O que é o projeto?</h5>
+                <p class="card-text">O projeto consiste na construção de um robô, controlado por um aplicativo 
+                  em smartphone de sistema Android, capaz de andar e estourar a bexiga 
+                  do adversário, através de armas projetadas com tal propósito, e manter seu 
+                  balão protegido com o sistema de defesa do robô.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="div-card">
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-book-open-reader"></i>
+              <div class="card-body">
+                <h5 class="card-title">Propósito</h5>
+                <p class="card-text">O propósito do projeto é aplicar os conhecimentos aprendidos nas matérias do curso e colocá-las em prática na construção de um robô, utilizando 
+                  habilidades desenvolvidas em todas as disciplinas do primeiro ano do curso de Sistemas de Informação.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="div-card">
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-people-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Equipe</h5>
+                <p class="card-text">O grupo desenvolvedor do projeto Nextron se chama NexTech, composto apenas por mulheres, sendo elas: Ana Carolina Calheiros de Lima, Nicole Alves Nogueira, Stefany Miyahara Omori e Yasmin Sayuri Iechika Muniz.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+  
+    <section class="galeria" id="galeria">
+      <h2>Galeria de fotos</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/IMG01.jpg" class="d-block w-100" alt="imagem do robô Nextron vista de frente">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG02.jpg" class="d-block w-100" alt="imagem do robô Nextron vista de cima">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG03.jpg" class="d-block w-100" alt="imagem do robô Nextron vista de frente">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG04.jpg" class="d-block w-100" alt="imagem do robô Nextron vista de lado com led azul">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG05.jpg" class="d-block w-100" alt="imagem do robô Nextron vista lateral com led vermelha">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG06.jpg" class="d-block w-100" alt="imagem do robô Nextron vista lateral com arma ativada">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG07.jpg" class="d-block w-100" alt="imagem do robô Nextron na diagonal com led azul">
+            </div>
+          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="arma" id="arma">
+      <div class="arma-imagem"></div>
+      <div class="arma-texto"><h2>Sistema da arma</h2><p></p>
+        <p>As armas do projeto Nextron terão como princípio a abertura frontal. Através do aplicativo de smartphone, as armas serão controladas individualmente, saindo pela frente do perímetro do robô e projetando-se para fora, com o propósito de estourar o balão adversário.</p>
+        <p>O objetivo será alcançado por meio de um mecanismo que conta com diversas agulhas, que serão acopladas nas bases planas das armas.</p>
+      </div>
+    </section>
+
+    <section class="hardware" id="hardware">
+      <h2><span>Hardware</span></h2>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="hdivisao">
+          <div class="hdivisao1">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Arduíno MEGA 2560
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Plataforma de prototipagem que serve para controlar os componentes do robô.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Cabo USB e Jumpers
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Para a conexão do arduíno com os demais componentes.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Shield
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placa que serve para adicionar funcionalidades extras ao arduíno.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+              Chave de fim de curso
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Objetivo de seu uso é desligar o robô.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+              Protoboard
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placa utilizada na conexão com os componentes.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+              Motor
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Para o funcionamento da arma e das rodas.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hdivisao2">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseOne">
+              Sensores
+            </button>
+          </h2>
+          <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Para a ativação da arma conforme aproximação do robô oponente.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseOne">
+              Fita led
+            </button>
+          </h2>
+          <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Para indicar o estado do robô.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseOne">
+              Módulo bluetooth
+            </button>
+          </h2>
+          <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Componente será usado para estabelecer a conexão entre o robô e o controle no smartphone.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseOne">
+              Rodas
+            </button>
+          </h2>
+          <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Locomoção do robô.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseOne">
+              Placa de MDF
+            </button>
+          </h2>
+          <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Base do robô.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseOne">
+              Porcas e parafusos
+            </button>
+          </h2>
+          <div id="flush-collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Para o funcionamento da arma e das rodas.</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    
+    <section class="videos" id="videos">
+      <h2>Vídeos</h2>
+      <div class="videos_ratio">
+      <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ab-8hjRY6pE?si=howcQPLrlZww1llv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/1iDT_u3ayRw?si=HU3eGbLGgU4ec2aX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      </div>
+    </section>
+
+    <section class="grupo" id="grupo">
+      <h2>Grupo NexTech</h2>
+      <div class="cards_grupo">
+        <div class="card cardg" style="width: 18rem;">
+          <img src="./images/img_carol.jpg" class="card-img-top" alt="foto da integrante Ana do grupo NexTech">
+          <div class="card-body">
+            <p class="card-text">Ana Carolina Calheiros de Lima</p>
+          </div>
+        </div>
+        <div class="card cardg" style="width: 18rem;">
+          <img src="./images/img_nicole.jpg" class="card-img-top" alt="foto da integrante Nicole do grupo NexTech">
+          <div class="card-body">
+            <p class="card-text">Nicole Alves Nogueira</p>
+          </div>
+        </div>
+        <div class="card cardg" style="width: 18rem;">
+          <img src="./images/img_stefany.jpg" class="card-img-top" alt="foto da integrante Stefany do grupo NexTech">
+          <div class="card-body">
+            <p class="card-text">Stefany Miyahara Omori</p>
+          </div>
+        </div>
+        <div class="card cardg" style="width: 18rem;">
+          <img src="./images/img_yasmin.jpg" class="card-img-top" alt="foto da integrante Yasmin do grupo NexTech">
+          <div class="card-body">
+            <p class="card-text">Yasmin Sayuri Iechika Muniz</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="robocup_next" id="robocup_next">
+    <div class="imagem_robocup_next">
+      <img src="./images/Robocup.png" alt="imagem da Robocup ocorrendo no Next">
+    </div>
+    <div class="textos">
+      <div class="robocup-texto"><h2>Robocup</h2>
+        <p>A Robocup é uma competição realizada pela faculdade Fiap onde os participantes são alunos do primeiro ano do curso de Sistemas de Informação, no qual consiste em uma disputa de robôs do tipo Rover controlado por um aplicativo Android, onde vence quem estourar o balão do adversário primeiro. A construção do projeto é de grande aprendizado e inclui a integração de todas as matérias sendo muito importante para a formação dos alunos. Os melhores projetos passam para o Next.</p>
+      </div>
+      <div class="next-texto"><h2>Next</h2>
+        <p>O Next é um evento da faculdade Fiap onde ocorre todo ano competições, como a final da Robocup e apresentações de diversos projetos realizados pelos estudantes. Além de mostrar os melhores trabalhos também foca em inovações no mercado de tecnologia, talentos, premiações, experiências e entretenimentos para o público.</p>
+      </div>
+    </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2>Entre em contato!</h2>
+      <form>
+        <div class="row my-2">
+        <div class="col-md-6 my-2">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="seu.email@email.com" required  method="post">
+          <div id="email" name="email" class="form-text"></div>
+        </div>
+      </div>
+      <div class="col-md-6 my-2">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Sobrenome" required  method="post">
+        </div>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem:</label>
+          <input type="text" class="form-control" id="mensagem" name="mensagem" placeholder="Olá!" required  method="post">
+        </div>
+        </div>
+        <div class="botao">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <h5><p>2024 © Desenvolvido pela equipe NexTech</p>
+      <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> nextron.robot@gmail.com</p>
+      <i class="fa-brands fa-youtube" style="color: #ffffff;"></i> RoboPet</h5>
+    </footer>
+
+    <!-- script js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
